@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.rahmat.belajar1.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="QUANTITY"/>
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/incrementbtn"
+        android:text="+"
+        android:onClick="increment"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:text="0"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/decrementbtn"
+        android:text="-"
+        android:onClick="decrement"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="PRICE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:text="0"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitOrder"
+        android:text="Order"
+        android:onClick="submitOrder"/>
+
+</LinearLayout>
